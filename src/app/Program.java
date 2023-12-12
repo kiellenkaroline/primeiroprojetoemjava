@@ -1,16 +1,19 @@
 package app;
 
 import java.util.Locale;
-import java.util.Scanner;
 
 public class Program {
 
     public static void main(String[] args) {
 
+        double x = 10.35784;
+        System.out.println(x);
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.4f%n", x);
         Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
+        System.out.printf("%.4f%n", x);
 
-        System.out.println("Hello, world!");
+
     }
 }
 

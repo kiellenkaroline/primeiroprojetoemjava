@@ -12,6 +12,8 @@ public class Program {
         System.out.printf("%.4f%n", x);
         Locale.setDefault(Locale.US);
         System.out.printf("%.4f%n", x);
+        System.out.println("RESULTADO = " + x + " METROS");
+        System.out.printf("RESULTADO = %.2f metros%n", x);
 
 
     }
